@@ -41,6 +41,7 @@ jupyter notebook --ip=0.0.0.0 --port=8888
 # 啟動程式
 #imageFile模式(影像從檔案來)  
 #點一下圖會連到youtube有影音版 
+1  
 sudo python imageFile.py  
 [![IMAGE ALT TEXT HERE](./temp/logo.png)](https://www.youtube.com/watch?v=EUxzZIVKB3U&feature=youtu.be)  
 
@@ -49,7 +50,7 @@ sudo python imageFile.py
 2.刪掉已經訓練完的神經網路 faces6.h5  
 3.sudo python train.py  
 
-# 付費課程原價3600特價699
+# 付費課程原價3600特價699 (輸入折扣碼:CNN699)
 1.更詳盡:詳細解說每一段程式碼  
 2.產學合一: 除了實做還會解釋CNN理論與知名神經網路LeNet/AlexNet/Vgg/GoogleNet，最後附贈小弟在臺灣資料工程協會工作仿講座影片
 
