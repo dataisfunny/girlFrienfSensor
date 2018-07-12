@@ -1,5 +1,15 @@
-#女友警報器 :偵測你的女友並發出警報聲避免做壞事時被撞見
+# 女友警報器 :偵測你的女友並發出警報聲避免做壞事時被撞見
 Author:Ray.Tseng
+
+# 訓練模型
+1.按照data/train中的格式，要分幾類就開幾個資料夾，Keras imageGenerator會自動檔把資料夾名稱當類別名稱  
+2.刪掉已經訓練完的神經網路 faces6.h5  
+3.sudo python train.py  
+
+# 付費課程原價3600特價699 (輸入折扣碼:CNN699)
+1.更詳盡:詳細解說每一段程式碼  
+2.產學合一: 除了實做還會解釋CNN理論與知名神經網路LeNet/AlexNet/Vgg/GoogleNet，最後附贈小弟在臺灣資料工程協會工作仿講座影片
+https://www.udemy.com/i-want-learn-cnn-ai-technology/?couponCode=CNN699
 
 # 環境部屬
 #ubuntu16.04
@@ -38,13 +48,4 @@ sed -i 's/#c.NotebookApp.allow_password_change/c.NotebookApp.allow_password_chan
 jupyter notebook password  
 jupyter notebook --ip=0.0.0.0 --port=8888   
 
-# 訓練模型
-1.按照data/train中的格式，要分幾類就開幾個資料夾，Keras imageGenerator會自動檔把資料夾名稱當類別名稱  
-2.刪掉已經訓練完的神經網路 faces6.h5  
-3.sudo python train.py  
-
-# 付費課程原價3600特價699 (輸入折扣碼:CNN699)
-1.更詳盡:詳細解說每一段程式碼  
-2.產學合一: 除了實做還會解釋CNN理論與知名神經網路LeNet/AlexNet/Vgg/GoogleNet，最後附贈小弟在臺灣資料工程協會工作仿講座影片
-https://www.udemy.com/i-want-learn-cnn-ai-technology/?couponCode=CNN699
 
