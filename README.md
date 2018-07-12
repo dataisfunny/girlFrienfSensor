@@ -5,6 +5,7 @@ Author:Ray.Tseng
 1.按照data/train中的格式，要分幾類就開幾個資料夾，Keras imageGenerator會自動檔把資料夾名稱當類別名稱  
 2.刪掉已經訓練完的神經網路 faces6.h5  
 3.sudo python train.py  
+4.訓練資料擺在data/train,驗證資料擺在data/validation，最後啟動imageFile.ipynb並將要測試的圖片擺到data/test
 
 # 付費課程原價3600特價699 (輸入折扣碼:CNN699)
 1.更詳盡:詳細解說每一段程式碼  
