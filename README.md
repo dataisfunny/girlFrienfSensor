@@ -36,14 +36,7 @@ jupyter-notebook --generate-config
 sed -i 's/#c.NotebookApp.allow_password_change/c.NotebookApp.allow_password_change/g' ~/.jupyter/jupyter_notebook_config.py  
 
 jupyter notebook password  
-jupyter notebook --ip=0.0.0.0 --port=8888  
-
-# 啟動程式
-#imageFile模式(影像從檔案來)  
-#點一下圖會連到youtube有影音版 
-1  
-sudo python imageFile.py  
-[![IMAGE ALT TEXT HERE](./temp/logo.png)](https://www.youtube.com/watch?v=EUxzZIVKB3U&feature=youtu.be)  
+jupyter notebook --ip=0.0.0.0 --port=8888   
 
 # 訓練模型
 1.按照data/train中的格式，要分幾類就開幾個資料夾，Keras imageGenerator會自動檔把資料夾名稱當類別名稱  
