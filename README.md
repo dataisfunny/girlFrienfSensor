@@ -53,5 +53,5 @@ sudo python imageFile.py
 # 付費課程原價3600特價699 (輸入折扣碼:CNN699)
 1.更詳盡:詳細解說每一段程式碼  
 2.產學合一: 除了實做還會解釋CNN理論與知名神經網路LeNet/AlexNet/Vgg/GoogleNet，最後附贈小弟在臺灣資料工程協會工作仿講座影片
-
+https://www.udemy.com/i-want-learn-cnn-ai-technology/?couponCode=CNN699
 
